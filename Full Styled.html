@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Profile!</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#basic" class="nav-item">Basic Information</a>
+      <a href="#facts" class="nav-item">Fun Facts</a>
+      <a href="#projects" class="nav-item">Past Projects</a>
+      <a href="#cv" class="nav-item">CV</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+    <br>
+    <div class="profile-card card" id="basic">
+      <div class="profile-card-img">
+        <img width="250px" src="img.jpg" alt="Meee!!!, If you can't see this you're not missing out on much">
+      </div>
+      <div class="profile-card-content">
+        <h1>John Watkins</h1>
+        <div><strong>Age:</strong> 18</div>
+        <div><strong><abbr title="Date Of Birth">DOB</abbr>:</strong> 29/07/2002</div>
+        <strong>Address:</strong>
+        <address>
+          Room 6 Flat 5 House T <br>
+          Talybont North <br>
+          Cardiff
+        </address>
+        <div><strong>Email:</strong><a href="mailto:WatkinsJ@cardiff.ac.uk">WatkinsJ@cardiff.ac.uk</a></div>
+      </div>
+    </div>
+    <br>
+    <section id="facts">
+      <h3>&#128516;Fun Facts!&#128516; </h3>
+      <p>> I can <em>Sort of</em> ride a unicycle</p>
+      <p>> I have a black belt in karate and have trained in Japan</p>
+      <p>> I once held the #3 global spot on a track on beatsaber</p>
+    </section>
+    <br>
+    <section id="cv">
+      <h3>My Qualifications</h3>
+      <p>And what I enjoyed about each</p>
+      <div class="container">
+        <div class="card">
+          <p style="font-size:100px">&#10135;</p>
+          <h2>Mathematics (A*)</h2>
+          <ul>
+            <li>Numbers</li>
+            <li>Big Numbers</li>
+            <li>Imaginary Numbers</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p style="font-size:100px">🖥️</p>
+          <h2>Comp Science (A)</h2>
+          <ul>
+            <li>Python Flask APIs</li>
+            <li>Python Big Data manipulation</li>
+            <li>SQL</li>
+            <li>Three.js/WebGL graphics pipelines</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p style="font-size:100px">&#9889;</p>
+          <h2>Physics (B)</h2>
+          <ul>
+            <li>Maths</li>
+            <li><em>Not much I really enjoyed in physics :/</em></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section id="projects">
+      <h3>Past Projects</h3>
+      <p>Click A project to visit it.</p>
+      <a href="https://mc.joewill.uk" target="_blank"><div id="minecraftjs" class="full-img">
+          <div class="parralax-content">
+            <div class="text">
+              <h1>MinecraftJs</h1>
+              <p>A minecraft clone made in the Three.js Library.</p>
+              <cite>Made alongside Joe Williams from ASE.</cite>
+            </div>
+          </div>
+      </div></a>
+      <div class="seperator"></div>
+      <a href="https://winflag10.github.io/BlockStacker/" target="_blank"><div id="stack" class="full-img">
+        <div class="parralax-content">
+          <div class="text">
+            <h1>BlockStacker</h1>
+            <p>A clone of the popular mobile game stack, again written in Three.js</p>
+          </div>
+        </div>
+      </div></a>
+    </section>
+    <br>
+    <form action="" method="post" id="contact">
+      <h2>Contact Me!</h2>
+      <div class="form-content">
+        <label for="message">Enter your message below<br>please include your name and a return email!</label>
+        <textarea id="message" name="message" rows="8" cols="80"></textarea>
+        <button type="submit" name="button">Send Message!</button>
+      </div>
+    </form>
+    <footer>
+      ©John Watkins, Finished on 06/10/2020
+    </footer>
+  </body>
+</html>
