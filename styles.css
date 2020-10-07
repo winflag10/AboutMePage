@@ -182,6 +182,10 @@ nav .nav-item:hover{
   background-image: url("dtb.png");
 }
 
+#itgetsbetter{
+  background-image: url("ItGetsBetter.png")
+}
+
 #drinks{
     text-align: center;
 }
